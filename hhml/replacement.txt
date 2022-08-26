@@ -1,0 +1,257 @@
+#=========================================
+# == Non-resonant ggF HH (mH = 125 GeV) ==
+#=========================================
+# Inclusive cross section: 31.05 for 13 TeV (sigma_NNLO_FTapprox [fb])
+# QCD scale unc: +2.2% -5.0%
+# PDF unc: +-2.1%
+# alphaS unc: +-2.1%
+# PDF+alphaS unc: +-3.0%
+# mtop unc: +-2.6%
+# The numbers can be found here: https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWGHH
+XXX_HH_XS_QCDscale_UP:  0.022
+XXX_HH_XS_QCDscale_DN: -0.050
+XXX_HH_XS_PDF_unc_UP:  0.021
+XXX_HH_XS_PDF_unc_DN: -0.021
+XXX_HH_XS_alphaS_unc_UP:  0.021
+XXX_HH_XS_alphaS_unc_DN: -0.021
+XXX_HH_XS_PDF_alphaS_unc_UP:  0.030 
+XXX_HH_XS_PDF_alphaS_unc_DN: -0.030
+XXX_HH_XS_mtop_unc_UP:  0.026
+XXX_HH_XS_mtop_unc_DN: -0.026
+#
+#=========================
+# == ttH (mH = 125 GeV) ==
+#=========================
+# XS =  507.1 fb
+# QCD_scale: +5.8 -9.2 %
+# PDF (+alpha_S): +- 3.6 %
+# This and other Higgs production in:
+# https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV#ttH_Process
+XXX_ttH_XS_QCDscale_UP:  0.058
+XXX_ttH_XS_QCDscale_DN: -0.092
+XXX_ttH_XS_PDFunc_UP:  0.036
+XXX_ttH_XS_PDFunc_DN: -0.036
+#
+#=============================
+# == ttV uncertaintes (YR4) ==
+#=============================
+# XSEC NLO using fixed scale (mt + mV/2)
+# ttZ on-shell XSEC = 839.3 fb
+# k-factor for ttll (on+off shell) = 1.51
+# k-factor for ttZnnqq = 1.47
+# ttW XSEC = 600.8 fb
+# k-factor for ttW = 1.32
+# https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWGTTH#Plans_for_YR4
+XXX_ttZ_XS_QCDscale_UP:  0.096
+XXX_ttZ_XS_QCDscale_DN: -0.113
+XXX_ttZ_XS_PDFunc_UP:  0.04
+XXX_ttZ_XS_PDFunc_DN: -0.04
+XXX_ttW_XS_QCDscale_UP:  0.129
+XXX_ttW_XS_QCDscale_DN: -0.115
+XXX_ttW_XS_PDFunc_UP:  0.034
+XXX_ttW_XS_PDFunc_DN: -0.034
+#
+#================================
+# == tZ uncertaintes (Prelim.) ==
+#================================
+XXX_tZ_XS_UP:  0.50
+XXX_tZ_XS_DN: -0.50
+#
+#=================================
+# == WtZ uncertaintes (Prelim.) ==
+#=================================
+XXX_WtZ_XS_UP:  0.50
+XXX_WtZ_XS_DN: -0.50
+#
+#=====================================
+# == Diboson uncertaintes (Prelim.) ==
+#=====================================
+XXX_diboson_XS_UP:  0.50
+XXX_diboson_XS_DN: -0.50
+#
+#======================================
+# == Triboson uncertaintes (Prelim.) ==
+#======================================
+XXX_triboson_XS_UP:  0.50
+XXX_triboson_XS_DN: -0.50
+#
+#=====================================
+# == rareTop uncertaintes (Prelim.) ==
+#=====================================
+XXX_rareTop_XS_UP:  0.50
+XXX_rareTop_XS_DN: -0.50
+#
+#======================================
+# == DrellYan Uncertaintes (Prelim.) ==
+#======================================
+XXX_DY_XS_UP:  0.50
+XXX_DY_XS_DN: -0.50
+#
+#=============================
+# == ttWW (4f) uncertaintes ==
+#=============================
+# https://twiki.cern.ch/twiki/bin/view/AtlasProtected/CrossSectionNLOttV
+# https://arxiv.org/pdf/1405.0301v2.pdf
+# XS = 9.904 fb
+XXX_ttWW_XS_scale_UP:  0.109
+XXX_ttWW_XS_scale_DN: -0.118
+XXX_ttWW_XS_PDFunc_UP:  0.021
+XXX_ttWW_XS_PDFunc_DN: -0.021
+#
+#=========================
+# == ttbar uncertaintes ==
+#=========================
+XXX_ttbar_XS_UP:  0.06
+XXX_ttbar_XS_DN: -0.06
+#
+#===================================================
+# == stop (t-channel, s-channel, Wt) uncertaintes ==
+#===================================================
+XXX_singletop_XS_UP:  0.05
+XXX_singletop_XS_DN: -0.05
+#
+#======================================
+# == vgamma uncertaintes (Prelim.) ==
+#======================================
+XXX_vgamma_XS_UP:  0.50
+XXX_vgamma_XS_DN: -0.50
+#
+#==========================
+# == V+jets uncertaintes ==
+#==========================
+XXX_Zjets_XS_UP:  0.40
+XXX_Zjets_XS_DN: -0.40
+XXX_Wjets_XS_UP:  0.40
+XXX_Wjets_XS_DN: -0.40
+XXX_Zjets_XS_2b_UP:  0.40
+XXX_Zjets_XS_2b_DN: -0.40
+XXX_Wjets_XS_2b_UP:  0.40
+XXX_Wjets_XS_2b_DN: -0.40
+#
+#=========================================
+# == Branching ratio uncertaintes (YR4) ==
+#=========================================
+XXX_ATLAS_BR_bb_UP:  0.012
+XXX_ATLAS_BR_bb_DN: -0.013
+XXX_ATLAS_BR_WW_UP:  0.016
+XXX_ATLAS_BR_WW_DN: -0.015
+XXX_ATLAS_BR_ZZ_UP:  0.016
+XXX_ATLAS_BR_ZZ_DN: -0.015
+XXX_ATLAS_BR_tautau_UP:  0.017
+XXX_ATLAS_BR_tautau_DN: -0.017
+XXX_ATLAS_BR_gg_UP:  0.051
+XXX_ATLAS_BR_gg_DN: -0.051
+XXX_ATLAS_BR_gamgam_UP:  0.021
+XXX_ATLAS_BR_gamgam_DN: -0.021
+XXX_ATLAS_BR_Others_UP:  0.05
+XXX_ATLAS_BR_Others_DN: -0.05
+#
+#===============================
+# == Smoothing of systematics ==
+#===============================
+XXX_SMOOTHING_EXP_SYS: 40
+#
+#=================
+# == MC Weights ==
+#=================
+XXX_2L_MCWEIGHT: weight_2l
+XXX_3L_MCWEIGHT: weight_3l
+XXX_4LBB_MCWEIGHT: weight_4lbb
+XXX_2L1TAU_MCWEIGHT: weight_2l1tau
+XXX_1L2TAU_MCWEIGHT: weight_1l2tau
+XXX_2L2TAU_MCWEIGHT: weight_2l2tau
+#
+#==============================
+# == Signal Region Selection ==
+#==============================
+XXX_2L_SELECTION: is2Lep > 0
+XXX_3L_SELECTION: is3Lep > 0
+XXX_4LBB_SELECTION: is4Lepbb > 0
+XXX_2L1TAU_SELECTION: is2Lep1Tau > 0
+XXX_1L2TAU_SELECTION: is1Lep2Tau > 0
+XXX_2L2TAU_SELECTION: is2Lep2Tau > 0
+#
+#=============================
+# == Values to be change    ==
+# == for unblinded data fit ==
+# == with fixed muHH=1      ==
+#=============================
+XXX_MU_XS_HH_MIN: -300.
+XXX_MU_XS_HH_MAX: 300.
+XXX_FIT_BLIND: TRUE
+#XXX_BLINDING_THRESHOLD: 0.15
+#
+#==============================
+# == Fake Leptons Selections ==
+#==============================
+XXX_TTBAR_PROMPT:(dilep_type&&((lep_isPrompt_0||((abs(lep_ID_0)==13&&lep_truthOrigin_0==0)||(abs(lep_ID_0)==11&&lep_truthOrigin_0==5&&lep_truthParentPdgId_0==lep_ID_0&&lep_truthParentType_0==2)))&&(lep_isPrompt_1||((abs(lep_ID_1)==13&&lep_truthOrigin_1==0)||(abs(lep_ID_1)==11&&lep_truthOrigin_1==5&&lep_truthParentPdgId_1==lep_ID_1&&lep_truthParentType_1==2)))))
+XXX_TTBAR_CONV: ( (dilep_type>0&&((lep_truthOrigin_0==5&&!(lep_truthParentPdgId_0==lep_ID_0&&lep_truthParentType_0==2))||(lep_truthOrigin_1==5&&!(lep_truthParentPdgId_1==lep_ID_1&&lep_truthParentType_1==2)))))
+XXX_TTBAR_NONPROMPT_E: ((dilep_type&&(((!lep_isPrompt_0&&!(lep_truthOrigin_0==5&&lep_truthParentPdgId_0==lep_ID_0&&lep_truthParentType_0==2))&&abs(lep_ID_0)==11)||((!lep_isPrompt_1&&!(lep_truthOrigin_1==5&&lep_truthParentPdgId_1==lep_ID_1&&lep_truthParentType_1==2))&&abs(lep_ID_1)==11))))
+XXX_TTBAR_NONQMISID: ( (dilep_type>0&&(lep_isQMisID_0==0)&&(lep_isQMisID_1==0)) )
+XXX_TTBAR_HF_E:((dilep_type&&((((lep_truthOrigin_0>=25&&lep_truthOrigin_0<=29)||lep_truthOrigin_0==32||lep_truthOrigin_0==33)&&abs(lep_ID_0)==11)||(((lep_truthOrigin_1>=25&&lep_truthOrigin_1<=29)||lep_truthOrigin_1==32||lep_truthOrigin_1==33)&&abs(lep_ID_1)==11))))
+XXX_TTBAR_NONPROMPT_MU: ( (dilep_type&&(((!lep_isPrompt_0&&!(lep_truthOrigin_0==0))&&abs(lep_ID_0)==13)||((!lep_isPrompt_1&&!(lep_truthOrigin_1==0))&&abs(lep_ID_1)==13))))
+NOQMSID_XXX: (lep_isQMisID_0 == 0) && (lep_isQMisID_1 == 0)
+#
+#==========================
+# == Fake Tau Selections ==
+#==========================
+XXX_TrueTau: (tau_truthType_0 > 0 && tau_truthType_0<=12)
+#
+#=======================
+# == Exclude DD Fakes ==
+#=======================
+XXX_EXCLUDE_DATA_DRIVEN: Fake_Dummy
+#
+#===================
+# == Data samples ==
+#===================
+#
+XXX_data_samples: data/data15, data/data16, data/data17, data/data18
+#
+#=================
+# == MC samples ==
+#=================
+#
+#XXX_HH_samples: mc16a/*450661*, mc16a/*450662*, mc16a/*450663*, mc16d/*450661*, mc16d/*450662*, mc16d/*450663*, mc16e/*450661*, mc16e/*450662*, mc16e/*450663*
+XXX_HH_samples: mc16a/*600853*,mc16a/*600854*,mc16a/*600855*,mc16a/*600856*,mc16a/*600857*,mc16a/*600858*,mc16d/*600853*,mc16d/*600854*,mc16d/*600855*,mc16d/*600856*,mc16d/*600857*,mc16d/*600858*,mc16e/*600853*,mc16e/*600854*,mc16e/*600855*,mc16e/*600856*,mc16e/*600857*,mc16e/*600858*
+#
+XXX_ttZ_samples: mc16a/*410156*, mc16a/*410157*, mc16a/*410218*, mc16a/*410219*, mc16a/*410220*, mc16d/*410156*, mc16d/*410157*, mc16d/*410218*, mc16d/*410219*, mc16d/*410220*, mc16e/*410156*, mc16e/*410157*, mc16e/*410218*, mc16e/*410219*, mc16e/*410220*
+#
+XXX_ttw_samples: mc16a/*410155*, mc16d/*410155*, mc16e/*410155*
+#
+XXX_ttbar_samples: mc16a/*410470*, mc16d/*410470*, mc16e/*410470*
+#
+XXX_ttbarDilep_samples: mc16a/*410472*, mc16d/*410472*, mc16e/*410472*
+#
+XXX_ttH_samples: mc16a/*346343*, mc16a/*346344*, mc16a/*346345*, mc16d/*346343*, mc16d/*346344*, mc16d/*346345*, mc16e/*346343*, mc16e/*346344*, mc16e/*346345*
+#
+XXX_tZ_samples: mc16a/*410560*, mc16d/*410560*, mc16e/*410560*
+#
+XXX_tWZ_samples: mc16a/*410408*, mc16d/*410408*, mc16e/*410408*
+#
+XXX_ttWW_samples: mc16a/*410081*, mc16d/*410081*, mc16e/*410081*
+#
+XXX_stop_samples: mc16a/*410644*, mc16a/*410645*, mc16a/*410646*, mc16a/*410647*, mc16a/*410648*, mc16a/*410649*, mc16a/*410658*, mc16a/*410659*, mc16d/*410644*, mc16d/*410645*, mc16d/*410646*, mc16d/*410647*, mc16d/*410648*, mc16d/*410649*, mc16d/*410658*, mc16d/*410659*, mc16e/*410644*, mc16e/*410645*, mc16e/*410646*, mc16e/*410647*, mc16e/*410648*, mc16e/*410649*, mc16e/*410658**, mc16e/*410659**
+#
+XXX_3top_samples: mc16a/*304014*, mc16d/*304014*, mc16e/*304014*
+#
+XXX_4top_samples: mc16a/*410080*, mc16d/*410080*
+#mc16e/*410080*
+#
+XXX_ttll_samples: mc16a/*410276*, mc16a/*410277*, mc16a/*410278*, mc16d/*410276*, mc16d/*410277*, mc16d/*410278*, mc16e/*410276*, mc16e/*410277*, mc16e/*410278*
+#
+XXX_RareTop_samples: mc16a/*410397*, mc16a/*410398*, mc16a/*410399*, mc16d/*410397*, mc16d/*410398*, mc16d/*410399*, mc16e/*410397*, mc16e/*410398*, mc16e/*410399*
+#
+XXX_VV_samples: mc16a/*363355*, mc16a/*363356*, mc16a/*363357*, mc16a/*363358*, mc16a/*363359*, mc16a/*363360*, mc16a/*363489*, mc16a/*364250*, mc16a/*364253*, mc16a/*364254*, mc16a/*364255*, mc16a/*364283*, mc16a/*364284*, mc16a/*364287*, mc16d/*363355*, mc16d/*363356*, mc16d/*363357*, mc16d/*363358*, mc16d/*363359*, mc16d/*363360*, mc16d/*363489*, mc16d/*364250**, mc16d/*364253**, mc16d/*364254*, mc16d/*364255*, mc16d/*364283*, mc16d/*364284*, mc16d/*364287*, mc16e/*363355*, mc16e/*363356*, mc16e/*363357*, mc16e/*363358*, mc16e/*363359*, mc16e/*363360*, mc16e/*363489*, mc16e/*364250**, mc16e/*364253**, mc16e/*364254**, mc16e/*364255*, mc16e/*364283*, mc16e/*364284*, mc16e/*364287*
+#
+XXX_VVV_samples: mc16a/*364242*, mc16a/*364243*, mc16a/*364244*, mc16a/*364245*, mc16a/*364246*, mc16a/*364247*, mc16a/*364248*, mc16a/*364249*, mc16d/*364242*, mc16d/*364243*, mc16d/*364244*, mc16d/*364245*, mc16d/*364246*, mc16d/*364247*, mc16d/*364248*, mc16d/*364249*, mc16e/*364242*, mc16e/*364243*, mc16e/*364244*, mc16e/*364245*, mc16e/*364246*, mc16e/*364247*, mc16e/*364248*, mc16e/*364249*
+#
+XXX_Vgamma_samples: mc16a/*700011*, mc16a/*700012*, mc16a/*700013*, mc16a/*700014*, mc16a/*700015*, mc16a/*700016*, mc16a/*700017*, mc16d/*700011*, mc16d/*700012*, mc16d/*700013*, mc16d/*700014*, mc16d/*700015*, mc16d/*700016*, mc16d/*700017*, mc16e/*700011*, mc16e/*700012*, mc16e/*700013*, mc16e/*700014*, mc16e/*700015*, mc16e/*700016*, mc16e/*700017*
+#
+XXX_vH_samples: mc16a/*342284*, mc16a/*342285*, mc16d/*342284*, mc16d/*342285*, mc16e/*342284*, mc16e/*342285*
+#
+XXX_Zjets_samples: mc16a/*364100*, mc16a/*364101*, mc16a/*364102*, mc16a/*364103*, mc16a/*364104*, mc16a/*364105*, mc16a/*364106*, mc16a/*364107*, mc16a/*364108*, mc16a/*364109*, mc16a/*364110*, mc16a/*364111*, mc16a/*364112*, mc16a/*364113*, mc16a/*364114*, mc16a/*364115*, mc16a/*364116*, mc16a/*364117*, mc16a/*364118*, mc16a/*364119*, mc16a/*364120*, mc16a/*364121*, mc16a/*364122*, mc16a/*364123*, mc16a/*364124*, mc16a/*364125*, mc16a/*364126*, mc16a/*364127*, mc16a/*364128*, mc16a/*364129*, mc16a/*364130*, mc16a/*364131*, mc16a/*364132*, mc16a/*364133*, mc16a/*364134*, mc16a/*364135*, mc16a/*364136*, mc16a/*364137*, mc16a/*364138*, mc16a/*364139*, mc16a/*364140*, mc16a/*364141*, mc16d/*364100*, mc16d/*364101*, mc16d/*364102*, mc16d/*364103*, mc16d/*364104*, mc16d/*364105*, mc16d/*364106*, mc16d/*364107*, mc16d/*364108**, mc16d/*364109*, mc16d/*364110*, mc16d/*364111*, mc16d/*364112*, mc16d/*364113*, mc16d/*364114*, mc16d/*364115*, mc16d/*364116*, mc16d/*364117*, mc16d/*364118*, mc16d/*364119*, mc16d/*364120*, mc16d/*364121*, mc16d/*364122**, mc16d/*364123*, mc16d/*364124*, mc16d/*364125*, mc16d/*364126*, mc16d/*364127*, mc16d/*364128*, mc16d/*364129*, mc16d/*364130*, mc16d/*364131*, mc16d/*364132*, mc16d/*364133*, mc16d/*364134*, mc16d/*364135*, mc16d/*364136*, mc16d/*364137*, mc16d/*364138*, mc16d/*364139*, mc16d/*364140*, mc16d/*364141*, mc16e/*364100*, mc16e/*364101*, mc16e/*364102**, mc16e/*364103*, mc16e/*364104*, mc16e/*364105*, mc16e/*364106*, mc16e/*364107*, mc16e/*364108**, mc16e/*364109*, mc16e/*364110*, mc16e/*364111*, mc16e/*364112*, mc16e/*364113*, mc16e/*364114*, mc16e/*364115*, mc16e/*364116*, mc16e/*364117*, mc16e/*364118*, mc16e/*364119*, mc16e/*364120*, mc16e/*364121*, mc16e/*364122**, mc16e/*364123*, mc16e/*364124*, mc16e/*364125*, mc16e/*364126*, mc16e/*364127*, mc16e/*364128*, mc16e/*364129*, mc16e/*364130*, mc16e/*364131*, mc16e/*364132*, mc16e/*364133*, mc16e/*364134*, mc16e/*364135*, mc16e/*364136*, mc16e/*364137*, mc16e/*364138*, mc16e/*364139*, mc16e/*364140*, mc16e/*364141*
+#
+XXX_Wjets_samples: mc16a/*364156*, mc16a/*364157*, mc16a/*364158*, mc16a/*364159*, mc16a/*364160*, mc16a/*364161*, mc16a/*364162*, mc16a/*364163*, mc16a/*364164*, mc16a/*364165*, mc16a/*364166*, mc16a/*364167*, mc16a/*364168*, mc16a/*364169*, mc16a/*364170*, mc16a/*364171*, mc16a/*364172*, mc16a/*364173*, mc16a/*364174*, mc16a/*364175*, mc16a/*364176*, mc16a/*364177*, mc16a/*364178*, mc16a/*364179*, mc16a/*364180*, mc16a/*364181*, mc16a/*364182*, mc16a/*364183*, mc16a/*364184*, mc16a/*364185*, mc16a/*364186*, mc16a/*364187*, mc16a/*364188*, mc16a/*364189*, mc16a/*364190*, mc16a/*364191*, mc16a/*364192*, mc16a/*364193*, mc16a/*364194*, mc16a/*364195*, mc16a/*364196*, mc16a/*364197*, mc16d/*364156*, mc16d/*364157*, mc16d/*364158*, mc16d/*364159*, mc16d/*364160*, mc16d/*364161*, mc16d/*364162*, mc16d/*364163*, mc16d/*364164*, mc16d/*364165*, mc16d/*364166*, mc16d/*364167*, mc16d/*364168*, mc16d/*364169*, mc16d/*364170*, mc16d/*364171*, mc16d/*364172*, mc16d/*364173*, mc16d/*364174*, mc16d/*364175*, mc16d/*364176*, mc16d/*364177*, mc16d/*364178*, mc16d/*364179*, mc16d/*364180*, mc16d/*364181*, mc16d/*364182*, mc16d/*364183*, mc16d/*364184*, mc16d/*364185*, mc16d/*364186*, mc16d/*364187*, mc16d/*364188*, mc16d/*364189*, mc16d/*364190*, mc16d/*364191*, mc16d/*364192*, mc16d/*364193*, mc16d/*364194*, mc16d/*364195*, mc16d/*364196*, mc16d/*364197*, mc16e/*364156*, mc16e/*364157**, mc16e/*364158*, mc16e/*364159*, mc16e/*364160*, mc16e/*364161*, mc16e/*364162*, mc16e/*364163*, mc16e/*364164*, mc16e/*364165*, mc16e/*364166*, mc16e/*364167*, mc16e/*364168*, mc16e/*364169*, mc16e/*364170**, mc16e/*364171**, mc16e/*364172*, mc16e/*364173*, mc16e/*364174*, mc16e/*364175*, mc16e/*364176*, mc16e/*364177*, mc16e/*364178**, mc16e/*364179*, mc16e/*364180*, mc16e/*364181*, mc16e/*364182*, mc16e/*364183*, mc16e/*364184*, mc16e/*364185*, mc16e/*364186*, mc16e/*364187*, mc16e/*364188*, mc16e/*364189*, mc16e/*364190*, mc16e/*364191*, mc16e/*364192*, mc16e/*364193*, mc16e/*364194*, mc16e/*364195*, mc16e/*364196*, mc16e/*364197*
+#
+XXX_DY_samples: mc16a/*364198*, mc16a/*364199*, mc16a/*364200*, mc16a/*364201*, mc16a/*364202*, mc16a/*364203*, mc16a/*364204*, mc16a/*364205*, mc16a/*364206*, mc16a/*364207*, mc16a/*364208*, mc16a/*364209*, mc16a/*364210*, mc16a/*364211*, mc16a/*364212*, mc16a/*364213*, mc16a/*364214*, mc16a/*364215*, mc16d/*364198*, mc16d/*364199*, mc16d/*364200*, mc16d/*364201*, mc16d/*364202*, mc16d/*364203*, mc16d/*364204*, mc16d/*364205*, mc16d/*364206*, mc16d/*364207*, mc16d/*364208*, mc16d/*364209*, mc16d/*364210*, mc16d/*364211*, mc16d/*364212*, mc16d/*364213*, mc16d/*364214*, mc16d/*364215*, mc16e/*364198*, mc16e/*364199*, mc16e/*364200*, mc16e/*364201*, mc16e/*364202*, mc16e/*364203*, mc16e/*364204*, mc16e/*364205*, mc16e/*364206*, mc16e/*364207*, mc16e/*364208*, mc16e/*364209*, mc16e/*364210*, mc16e/*364211*, mc16e/*364212*, mc16e/*364213*, mc16e/*364214*, mc16e/*364215*
