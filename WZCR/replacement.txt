@@ -175,6 +175,7 @@ XXX_2L2TAU_SELECTION: is2Lep2Tau > 0
 XXX_2lOSSF_ZVeto: (lep_ID_0+lep_ID_1==0? abs(Mll01/1000-91.2)>10 : 1)
 XXX_2lOSSF_ZMass: (lep_ID_0+lep_ID_1==0? abs(Mll01/1000-91.2)<=10 : 0)
 XXX_TrueTau: (tau_truthType_0 > 0 && tau_truthType_0<=12)
+XXX_TightTau: (nTaus_OR_Pt25_RNN>=1 && ((tau_numTrack_0==1&&tau_RNNJetScoreSigTrans_0>0.4)||(tau_numTrack_0==3&&tau_RNNJetScoreSigTrans_0>0.55)))
 #
 #=============================
 # == Values to be change    ==
