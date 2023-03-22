@@ -174,7 +174,11 @@ XXX_1L2TAU_SELECTION: is1Lep2Tau > 0
 XXX_2L2TAU_SELECTION: is2Lep2Tau > 0
 XXX_2lOSSF_ZVeto: (lep_ID_0+lep_ID_1==0? abs(Mll01/1000-91.2)>10 : 1)
 XXX_2lOSSF_ZMass: (lep_ID_0+lep_ID_1==0? abs(Mll01/1000-91.2)<=10 : 0)
-XXX_TrueTau: (tau_truthType_0 > 0 && tau_truthType_0<=12)
+# fake tau SF for fake tau events, leps could be true or fake, new
+XXX_TrueTau: (tau_isHadronic_0 || (tau_truthType_0>0 && tau_truthType_0<9))
+# fake tau SF for fake tau only events, leps are true, new
+#XXX_TrueTau:
+XXX_FakeLeps: (lep_isPrompt_0==0 || lep_isPrompt_1==0)
 #
 #=============================
 # == Values to be change    ==

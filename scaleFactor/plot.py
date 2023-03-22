@@ -34,6 +34,7 @@ SF_Zjets_1p = inf.Get('SF_Zjets_1p')
 SF_top_1p = inf.Get('SF_top_1p')
 SF_nom_1p_Composition_sys = inf.Get('SF_nom_1p_Composition_sys')
 SF_nom_1p_Numerator_sys = inf.Get('SF_nom_1p_Numerator_sys')
+SF_nom_1p_All_sys = inf.Get('SF_nom_1p_All_sys')
 
 SF_nom_1p.SetLineColor(1)
 SF_nom_1p_trueMCUncer_up.SetLineColor(2)
@@ -49,6 +50,10 @@ SF_nom_1p_Numerator_sys.SetMarkerSize(0)
 SF_nom_1p_Numerator_sys.SetLineWidth(0)
 SF_nom_1p_Numerator_sys.SetFillStyle(3004)
 SF_nom_1p_Numerator_sys.SetFillColor(7)
+SF_nom_1p_All_sys.SetMarkerSize(0)
+SF_nom_1p_All_sys.SetLineWidth(0)
+SF_nom_1p_All_sys.SetFillStyle(3004)
+SF_nom_1p_All_sys.SetFillColor(8)
 
 canv1 = TCanvas('canv1', 'canvas', 800, 800);
 lg1 = TLegend(0.45, 0.15, 0.85, 0.45)
@@ -98,6 +103,7 @@ SF_Zjets_3p = inf.Get('SF_Zjets_3p')
 SF_top_3p = inf.Get('SF_top_3p')
 SF_nom_3p_Composition_sys = inf.Get('SF_nom_3p_Composition_sys')
 SF_nom_3p_Numerator_sys = inf.Get('SF_nom_3p_Numerator_sys')
+SF_nom_3p_All_sys = inf.Get('SF_nom_3p_All_sys')
 
 SF_nom_3p.SetLineColor(1)
 SF_nom_3p_trueMCUncer_up.SetLineColor(2)
@@ -113,6 +119,10 @@ SF_nom_3p_Numerator_sys.SetMarkerSize(0)
 SF_nom_3p_Numerator_sys.SetLineWidth(0)
 SF_nom_3p_Numerator_sys.SetFillStyle(3004)
 SF_nom_3p_Numerator_sys.SetFillColor(7)
+SF_nom_3p_All_sys.SetMarkerSize(0)
+SF_nom_3p_All_sys.SetLineWidth(0)
+SF_nom_3p_All_sys.SetFillStyle(3004)
+SF_nom_3p_All_sys.SetFillColor(8)
 
 canv3 = TCanvas('canv3', 'canvas', 800, 800);
 lg3 = TLegend(0.45, 0.15, 0.85, 0.45)
@@ -180,3 +190,35 @@ lg6.AddEntry(SF_nom_3p, SF_nom_3p.GetName().replace('SF_', ''), 'lep')
 lg6.Draw('same')
 canv6.SaveAs(outName+'_3p_nom.png')
 canv6.SaveAs(outName+'_3p_nom.pdf')
+
+###
+canv7 = TCanvas('canv7', 'canvas', 800, 800);
+lg7 = TLegend(0.20, 0.20, 0.50, 0.30)
+lg7.SetBorderSize(0)
+lg7.SetFillColorAlpha(kBlue, 0)
+
+SF_nom_1p_All_sys.Draw('same e2')
+SF_nom_1p.Draw('same')
+
+lg7.AddEntry(SF_nom_1p_All_sys, SF_nom_1p_All_sys.GetName().replace('SF_', ''), 'f')
+lg7.AddEntry(SF_nom_1p, SF_nom_1p.GetName().replace('SF_', ''), 'lep')
+
+lg7.Draw('same')
+canv7.SaveAs(outName+'_1p_allSys.png')
+canv7.SaveAs(outName+'_1p_allSys.pdf')
+
+
+canv8 = TCanvas('canv8', 'canvas', 800, 800);
+lg8 = TLegend(0.20, 0.20, 0.50, 0.30)
+lg8.SetBorderSize(0)
+lg8.SetFillColorAlpha(kBlue, 0)
+
+SF_nom_3p_All_sys.Draw('same e2')
+SF_nom_3p.Draw('same')
+
+lg8.AddEntry(SF_nom_3p_All_sys, SF_nom_3p_All_sys.GetName().replace('SF_', ''), 'f')
+lg8.AddEntry(SF_nom_3p, SF_nom_3p.GetName().replace('SF_', ''), 'lep')
+
+lg8.Draw('same')
+canv8.SaveAs(outName+'_3p_allSys.png')
+canv8.SaveAs(outName+'_3p_allSys.pdf')

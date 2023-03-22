@@ -38,6 +38,8 @@ for key in inf.GetListOfKeys():
 for ntrk in ntrks:
  hSF_Numerator_sys = inf.Get('SF_nom_'+ntrk).Clone('SF_nom_'+ntrk+'_Numerator_sys')
  hSF_Composition_sys = inf.Get('SF_nom_'+ntrk).Clone('SF_nom_'+ntrk+'_Composition_sys')
+ hSF_MCStat_sys = inf.Get('SF_nom_'+ntrk).Clone('SF_nom_'+ntrk+'_MCStat_sys')
+ hSF_All_sys = inf.Get('SF_nom_'+ntrk).Clone('SF_nom_'+ntrk+'_All_sys')
 
  #for cr in CRs:
  # hist = inf.Get('SF_'+cr+'_'+ntrk)
@@ -63,5 +65,14 @@ for ntrk in ntrks:
   hSF_Numerator_sys.SetBinError(i+1, uncer/2)
  outf.cd()
  hSF_Numerator_sys.Write()
+
+ for i in range(len(numSFs['nom_'+ntrk])):
+  compSys = hSF_Composition_sys.GetBinError(i+1)
+  numSys = hSF_Numerator_sys.GetBinError(i+1)
+  mcstatSys = hSF_MCStat_sys.GetBinError(i+1)
+  allSys = (compSys**2 + numSys**2 + mcstatSys**2)**0.5
+  hSF_All_sys.SetBinError(i+1, allSys)
+ outf.cd()
+ hSF_All_sys.Write()
 
 outf.Close()
